@@ -1,0 +1,86 @@
+// Place all the styles related to the Home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$iron: #dadbdf;
+$pale-sky: #6b717f;
+$regent-grey: #808c99;
+$hopbush: #c69;
+$dawn-pink: #f2ece4;
+$nebula: #d2e1dd;
+$midnight-blue: #036;
+
+// video {
+//   position: fixed;
+//   top: 100%;
+//   left: 50%;
+//   min-width: 100%;
+//   min-height: 100%;
+//   width: auto;
+//   height: auto;
+//   z-index: -100;
+//   transform: translateX(-50%) translateY(-100%);
+//   background: url("/assets/722675159.mp4");
+//   background-size: cover;
+//   transition: 600ms;
+//
+// }
+
+// #astronaut{
+//   width: auto;
+//   height: 720px;
+// }
+.carousel-item {
+  width: auto;
+  height: 500px;
+  margin: 0 auto;
+}
+h3{
+  color: $regent-grey;
+}
+p{
+  color: $regent-grey;
+}
+
+.fa-chevron-left{
+  font-size: 55px;
+  color: $iron;
+}
+.fa-chevron-left:hover{
+  color: $dawn-pink;
+}
+.fa-chevron-right{
+  font-size: 55px;
+  color: $iron;
+}
+.fa-chevron-right:hover{
+  color: $dawn-pink;
+}
+// .carousel-control-prev{
+//   background: #343432;
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   left: 0;
+//   width: 15%;
+//   font-size: 20px;
+//   color: black;
+//   text-align: center;
+//   text-shadow: 0 1px 1px rgba(0, 0, 0, 0.6);
+// }
+// .carousel-control-next{
+//   background: #343432;
+//   position: absolute;
+//   top: 0;
+//   bottom: 0;
+//   right: 0;
+//   width: 15%;
+//   font-size: 20px;
+//   color: black;
+//   text-align: center;
+//   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+//
+// }
+
+// .carousel-control-next-icon{
+//   color: black;
+// }

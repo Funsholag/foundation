@@ -1,0 +1,72 @@
+// Place all the styles related to the About controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// property finder results page, about page
+$iron: #dadbdf;
+$pale-sky: #6b717f;
+$regent-grey: #808c99;
+$hopbush: #c69;
+$dawn-pink: #f2ece4;
+$nebula: #d2e1dd;
+$midnight-blue: #036;
+
+/**Sub Navigation**/
+.subnavigation-container{
+  background: #3d6277;
+}
+.subnavigation .nav-link{
+  color: white;
+  font-weight: bold;
+}
+.subnavigation-container{
+  text-align: center;
+}
+.subnavigation-container .navbar{
+  display: inline-block;
+  margin-bottom: -6px; /* Inline-block margin offffset HACK -Gilron */
+}
+.col-subnav a{
+  padding: 1rem 1rem;
+  color: white;
+  font-weight: bold;
+}
+.col-subnav .active{
+  border-top:5px solid orange;
+ background: white;
+  color: black;
+}
+// .about-bg {
+//   padding-top: 60px;
+//   padding-bottom: 170px;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+//   margin-top: -25px;
+// }
+//
+// .about-box {
+//   width: 50%;
+//   background-color: lighten($midnight-blue, 10);
+//   border-radius: 20px;
+//   margin-left: 10%;
+//   margin-right: 10%;
+//   color: rgba($iron, .8);
+// }
+//
+// .about-text {
+//   width: 90%;
+//   height: 90%;
+//   margin-left: 5%;
+//   margin-right: 5%;
+//   padding-top: 2.5%;
+//   padding-bottom: 2.5%;
+//
+//   h2 {
+//     font-size: 30px;
+//     font-family: 'Eczar', serif;
+//     color: white;
+//   }
+//   p {
+//     font-family: "Eczar", serif;
+//     letter-spacing: .5px;
+//   }
+// }
