@@ -9,21 +9,23 @@ $dawn-pink: #f2ece4;
 $nebula: #d2e1dd;
 $midnight-blue: #036;
 
-// video {
-//   position: fixed;
-//   top: 100%;
-//   left: 50%;
-//   min-width: 100%;
-//   min-height: 100%;
-//   width: auto;
-//   height: auto;
-//   z-index: -100;
-//   transform: translateX(-50%) translateY(-100%);
-//   background: url("/assets/722675159.mp4");
-//   background-size: cover;
-//   transition: 600ms;
-//
-// }
+video {
+  position: fixed;
+  // top: 100%;
+  left: 50%;
+  min-width: 100%;
+  max-height: 400px;
+  object-fit: fill;
+  // min-height: 100%;
+  // width: auto;
+  // height: auto;
+  z-index: -100;
+  // transform: translateX(-50%) translateY(-100%);
+  // background: url("/assets/699572008.mp4");
+  // background-size: cover;
+  transition: 600ms;
+
+}
 
 // #astronaut{
 //   width: auto;
