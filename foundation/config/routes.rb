@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get '/about' => "about#index"
   get '/about/mission' => "about#mission"
   get '/about/board' => "about#board"
-  get '/about/partners' => "about#partners"
+  get '/about/event' => "about#event"
   get '/about/impact' => "about#impact"
   get '/about/officers' => "about#officers"
 
