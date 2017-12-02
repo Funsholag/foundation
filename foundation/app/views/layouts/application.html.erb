@@ -8,7 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <script src="https://use.fontawesome.com/37f841e0f7.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Faustina|Kameron|Maven+Pro|Poiret+One|Yantramanav" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Faustina|Kameron|Maven+Pro|Poiret+One|Yantramanav|Roboto" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -17,7 +17,6 @@
     <% if controller_name == "home" && action_name == "index" %>
     <div class="container">
       <h3>Logo</h3>
-      <p>Donate Button</p>
     </div>
     <% end %>
 
@@ -80,7 +79,7 @@
           <!--Column1-->
           <div class="footer-pad">
             <address>
-  								<ul class="list-unstyled">
+  								<ul class="location list-unstyled">
                     <h3 class="footerContact">Contact</h3>
   									<li>
                       Canaan Plaza<br>
@@ -95,7 +94,7 @@
         <div class="col-md-3 col-sm-6">
           <!--Column1-->
           <div class="footer-pad">
-            <ul class="list-unstyled">
+            <ul class="location list-unstyled">
               <br><br>
               <li>Tel: +234 703 125 5141</li>
             </ul>
@@ -104,11 +103,27 @@
         <div class="col-md-3 col-sm-6">
           <!--Column1-->
           <div class="footer-pad">
-            <ul class="list-unstyled">
-              <h3 class="connectContact">Connect</h3>
-              <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-              <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <h3 class="connectContact">Connect</h3>
+            <ul class="socialList list-unstyled">
+              <li>
+                <div class='demopadding'>
+                  <div class='icon social tw'>
+                    <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  </div>
+                  <div class='icon social in'>
+                    <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                  </div>
+                  <div class='icon social fb'>
+                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  </div>
+                  <div class='icon social li'>
+                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  </div>
+                  <div class='icon social go'>
+                    <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                  </li>
+                  </div>
+                </div>
             </ul>
           </div>
         </div>
