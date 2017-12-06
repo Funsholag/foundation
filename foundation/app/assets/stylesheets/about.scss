@@ -18,6 +18,16 @@ $midnight-blue: #036;
   font-family: 'Kameron', serif;
 }
 
+.headOffice{
+  text-decoration: underline;
+  // line-height: 15px;
+  color: black;
+}
+.branchOffice{
+  text-decoration: underline;
+  // line-height: 15px;
+  color: black;
+}
 .aboutGround{
   background-color: $nebula;
 }
@@ -218,31 +228,39 @@ padding: 0px;
 margin: 0px 0px 20px;
 }
 .event-list > li > time {
-display: inline-block;
-width: 100%;
-color: rgb(255, 255, 255);
-background-color: rgb(197, 44, 102);
-padding: 5px;
-text-align: center;
-text-transform: uppercase;
+  display: inline-block;
+  width: 100%;
+  color: rgb(255, 255, 255);
+  background-color: rgb(197, 44, 102);
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
 }
 .event-list > li:nth-child(even) > time {
-background-color: rgb(165, 82, 167);
+  background-color: rgb(165, 82, 167);
 }
 .event-list > li > time > span {
-display: none;
+  display: none;
 }
 .event-list > li > time > .day {
-display: block;
-font-size: 56pt;
-font-weight: 100;
-line-height: 1;
+  display: block;
+  font-size: 56pt;
+  font-weight: 100;
+  line-height: 1;
 }
 .event-list > li time > .month {
-display: block;
-font-size: 24pt;
-font-weight: 900;
-line-height: 1;
+  display: block;
+  font-size: 24pt;
+  font-weight: 900;
+  line-height: 1;
+  // color: black;
+}
+.event-list > li time > .year {
+  display: block;
+  font-size: 24pt;
+  font-weight: 900;
+  line-height: 1;
+  // color: black;
 }
 .event-list > li > img {
 width: 100%;
