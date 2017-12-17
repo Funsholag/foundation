@@ -21,8 +21,8 @@
     <% end %>
 
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <a class="navbar-brand" href="/"><i class="fa fa-home" aria-hidden="true"></i></a>
-      <!-- <a class="navbar-brand" href="/"><img src="/Foundation Logo.jpg" alt="placeholder" class="logo img-responsive"/></a> -->
+      <!-- <a class="navbar-brand" href="/"><i class="fa fa-home" aria-hidden="true"></i></a> -->
+      <a class="navbar-brand" href="/"><img src="/Foundation Logo.png" alt="placeholder" class="logo img-responsive"/></a>
       <!-- <img class="navbar-brand logo" src="/Foundation Logo.jpg" alt="logo" style="margin-left: 0px;"> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -35,7 +35,7 @@
             <a class="nav-link dropdown-toggle" href="/about" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <a class="dropdown-item" href="/about">About</a>
-              <a class="dropdown-item" href="/about/mission">Mission</a>
+              <a class="dropdown-item" href="/mission">Mission</a>
               <a class="dropdown-item" href="/about/board">Board of Directors</a>
               <a class="dropdown-item" href="/about/officers">Officers</a>
               <a class="dropdown-item" href="/about/program">Programs</a>
@@ -76,6 +76,7 @@
 
     <%= yield %>
   </body>
+
   <footer class="footer">
     <div class="footerContainer">
       <div class="footer-middle">
@@ -86,7 +87,7 @@
            <div class="footer-pad">
              <ul class="aboutColumn list-unstyled">
                <h3 class="footerContact"><a class="aboutColumnTitle" href="/about">About Us</a></h3>
-               <li><a class="aboutColumnTitle" href="/about/mission">Mission<a></li>
+               <li><a class="aboutColumnTitle" href="/mission">Mission<a></li>
                <li><a class="aboutColumnTitle" href="/about/board">Board of Trustees</a></li>
                <li> <a class="aboutColumnTitle" href="/about/officers">Officers</a></li>
              </ul>
@@ -166,6 +167,7 @@
        </div>
     </div>
   </footer>
+
 
 
 </html>
