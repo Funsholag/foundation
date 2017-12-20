@@ -36,6 +36,10 @@ body {
  /*Arbutus+Slab|Faustina|Kameron|Maven+Pro|Poiret+One|*/
 
 }
+.navbar-container{
+  /*text-align: center;*/
+  margin-left: 250px;
+}
 .dropdown-toggle::after {
    display: none;
 }

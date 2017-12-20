@@ -53,6 +53,35 @@ p{
   color: $dawn-pink;
 }
 
+// .overlay figcaption {
+//     position: absolute;
+//     z-index: 1000;
+//     height: 100%;
+//     width: 100%;
+//     background: rgba(0,0,0,0.6);
+//     /**text, adjust as req'd**/
+//     padding-top: 15%;
+//     padding-left: 5%;
+//     color: #FFF;
+//     font-weight: 700;
+//     text-align: center;
+//     font-size: 20px; /**some fallback value**/
+//     font-size: 5.4vw; /**responsive size**/
+// }
+// .overlay-desc {
+//   background: rgba(0,0,0,0);
+//   position: absolute;
+//   top: 0; right: 0; bottom: 0; left: 0;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+// h2 {
+//   color: white;
+//   font-family: 'Nobile', sans-serif;
+//   font-size: 9vw;
+//   text-align: center;
+// }
 
 // video {
 //   position: fixed;
