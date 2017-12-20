@@ -64,6 +64,53 @@ $midnight-blue: #036;
 }
 
 // Board of Directors Page
+// .orange{
+//   background: #F8971D !important;
+// }
+// .card-content > .card{
+//   margin: 1%;
+//   width: calc(96% / 2);
+//   background: #1a92b7;
+//   border-radius: 7px;
+//   box-sizing: border-box;
+//   text-align: center;
+//   font-size: 141px;
+//   text-transform: uppercase;
+//   padding: 10px 0;
+//   float: left;
+//   color: #fff;
+//   transition: .5s;
+//   -webkit-transition: .5s;
+//   cursor: pointer;
+//   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.11);
+//   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.11);
+//   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.11);
+//   &:active{
+//     background-color: #F8971D;
+//     user-select: none;
+//     transition: 0s;
+//     -webkit-transition: 0s;
+//   }
+// }
+// .card-header-title{
+//   background: #f4f4f4;
+// }
+// .card-element-title{
+//   text-transform: uppercase;
+//   text-align: center;
+//   font-size: 33px;
+//   color: #7f7f7f;
+// }
+.modal-body{
+  background-color: $iron;
+  // margin-bottom: 15px;
+  // color: black;
+}
+
+// #myModal1{
+//   padding-bottom: 20px;
+//   background-color: black;
+// }
 .boardTitle{
   text-align: center;
   font-family: 'Kameron', serif;
@@ -86,7 +133,8 @@ $midnight-blue: #036;
 
 .officers-box {
   width: 90%;
-  background-color: lighten($iron, 5);
+  // background-color: lighten($iron, 5);
+  background-color: darken($iron, 15);
   border-radius: 20px;
   margin: 0 auto;
   // color: rgba($iron, .8);
@@ -110,10 +158,22 @@ $midnight-blue: #036;
   color: black;
   font-family: 'Yantramanav', sans-serif;
 }
-
+.card-title{
+  color: black;
+}
+.card-text{
+  color: black;
+}
+.col-sm-3{
+  margin: 0 auto;
+}
 .card{
-  margin-left: 10px;
-  margin-bottom: 10px;
+  // margin: 0 auto;
+  // float: none;
+  // margin-bottom: 10px;
+  // margin-left: 10px;
+  // margin-bottom: 10px;
+  // margin: 0 auto;
 }
 
 
@@ -333,6 +393,7 @@ background-color: rgb(221, 75, 57) !important;
 // program page
 .program-bg {
   padding-top: 10px;
+
   // padding-bottom: 170px;
   background-repeat: no-repeat;
   background-size: cover;
