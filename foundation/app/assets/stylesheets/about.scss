@@ -14,7 +14,6 @@ $midnight-blue: #036;
 
 
 .p-b-1{
-  // font-family: 'Yantramanav', sans-serif;
   font-family: 'Kameron', serif;
   text-align: center;
   font-weight: 600;
@@ -66,44 +65,6 @@ $midnight-blue: #036;
   text-decoration: none;
 }
 
-// Board of Directors Page
-// .orange{
-//   background: #F8971D !important;
-// }
-// .card-content > .card{
-//   margin: 1%;
-//   width: calc(96% / 2);
-//   background: #1a92b7;
-//   border-radius: 7px;
-//   box-sizing: border-box;
-//   text-align: center;
-//   font-size: 141px;
-//   text-transform: uppercase;
-//   padding: 10px 0;
-//   float: left;
-//   color: #fff;
-//   transition: .5s;
-//   -webkit-transition: .5s;
-//   cursor: pointer;
-//   -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.11);
-//   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.11);
-//   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.11);
-//   &:active{
-//     background-color: #F8971D;
-//     user-select: none;
-//     transition: 0s;
-//     -webkit-transition: 0s;
-//   }
-// }
-// .card-header-title{
-//   background: #f4f4f4;
-// }
-// .card-element-title{
-//   text-transform: uppercase;
-//   text-align: center;
-//   font-size: 33px;
-//   color: #7f7f7f;
-// }
 .modal-body{
   background-color: $iron;
   // margin-bottom: 15px;
@@ -170,14 +131,6 @@ $midnight-blue: #036;
 .col-sm-3{
   margin: 0 auto;
 }
-.card{
-  // margin: 0 auto;
-  // float: none;
-  // margin-bottom: 10px;
-  // margin-left: 10px;
-  // margin-bottom: 10px;
-  // margin: 0 auto;
-}
 
 
 // events page
@@ -185,8 +138,6 @@ $midnight-blue: #036;
   width: 100%;
   background-color: lighten($iron, 5);
   margin: 0 auto;
-  // color: rgba($iron, .8);
-  // color: black;
 }
 
 .eventTitle{

@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= favicon_link_tag '/favico.ico' %>Math and Science Foundation</title>
+    <title>Math &amp; Science Foundation</title>
     <%= csrf_meta_tags %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
@@ -14,11 +14,6 @@
   </head>
 
   <body>
-    <% if controller_name == "home" && action_name == "index" %>
-    <!-- <div class="container">
-      <img src="/Foundation Logo.jpg" alt="placeholder" class="logo img-responsive"/>
-    </div> -->
-    <% end %>
 
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
       <!-- <a class="navbar-brand" href="/"><i class="fa fa-home" aria-hidden="true"></i></a> -->
@@ -58,6 +53,13 @@
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/about/event">Events</a>
+          </li>
+          <% elsif controller_name == "about" && action_name == "index" %>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/contact">Contact Us</a>
           </li>
           <% else %>
           <li class="nav-item">
