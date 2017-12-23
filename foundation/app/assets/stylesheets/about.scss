@@ -16,6 +16,9 @@ $midnight-blue: #036;
 .p-b-1{
   // font-family: 'Yantramanav', sans-serif;
   font-family: 'Kameron', serif;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 .headOffice{
@@ -388,43 +391,6 @@ background-color: rgb(221, 75, 57) !important;
   width: 40px;
   padding: 10px 0px 9px;
 }
-}
-
-// program page
-.program-bg {
-  padding-top: 10px;
-
-  // padding-bottom: 170px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  // margin-top: -25px;
-}
-
-.program-box {
-  width: 90%;
-  background-color: lighten($iron, 5);
-  border-radius: 20px;
-  margin: 0 auto;
-  // color: rgba($iron, .8);
-  // color: black;
-}
-
-  p {
-    letter-spacing: .5px;
-  }
-
-
-.programTitle{
-  text-align: center;
-  color: black;
-  font-family: 'Kameron', serif;
-}
-
-
-.programParagraph{
-  text-align: center;
-  color: black;
-  font-family: 'Yantramanav', sans-serif;
 }
 
 .card{

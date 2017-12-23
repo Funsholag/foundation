@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get '/about/program' => "about#program"
   get '/about/officers' => "about#officers"
   get '/mission' => "mission#mission"
+  get '/program' => "program#program"
 
   get '/contact' => "contact#index"
 end

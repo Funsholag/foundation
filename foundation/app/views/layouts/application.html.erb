@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Foundation</title>
+    <title><%= favicon_link_tag '/favico.ico' %>Math and Science Foundation</title>
     <%= csrf_meta_tags %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
@@ -23,7 +23,7 @@
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
       <!-- <a class="navbar-brand" href="/"><i class="fa fa-home" aria-hidden="true"></i></a> -->
 
-      <a class="navbar-brand" href="/"><img src="/Foundation Logo.png" alt="placeholder" class="logo img-responsive"/></a>
+      <a class="navbar-brand pull-left" href="/"><img src="/Foundation Logo.png" alt="placeholder" class="logo img-responsive"/></a>
 
       <!-- <img class="navbar-brand logo" src="/Foundation Logo.jpg" alt="logo" style="margin-left: 0px;"> -->
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -40,8 +40,8 @@
               <a class="dropdown-item" href="/about">About</a>
               <a class="dropdown-item" href="/mission">Mission</a>
               <a class="dropdown-item" href="/about/board">Board of Directors</a>
-              <a class="dropdown-item" href="/about/officers">Officers</a>
-              <a class="dropdown-item" href="/about/program">Programs</a>
+              <!-- <a class="dropdown-item" href="/about/officers">Officers</a> -->
+              <a class="dropdown-item" href="/program">Programs</a>
               <a class="dropdown-item" href="/about/event">Event</a>
             </div>
           </li>
@@ -81,10 +81,10 @@
     <%= yield %>
   </body>
 
-  <footer class="footer">
+  <!-- <footer class="footer"> -->
+  <footer class="footer absolute-bottom content">
     <div class="footerContainer">
       <div class="footer-middle">
-     <!-- <div class="container"> -->
        <div class="row">
          <div class="col-md-3 col-sm-6">
            <!--Column 1-->
@@ -92,8 +92,8 @@
              <ul class="aboutColumn list-unstyled">
                <h3 class="footerContact"><a class="aboutColumnTitle" href="/about">About Us</a></h3>
                <li><a class="aboutColumnTitle" href="/mission">Mission<a></li>
-               <li><a class="aboutColumnTitle" href="/about/board">Board of Trustees</a></li>
-               <li> <a class="aboutColumnTitle" href="/about/officers">Officers</a></li>
+               <li><a class="aboutColumnTitle" href="/about/board">Board of Directors</a></li>
+               <!-- <li> <a class="aboutColumnTitle" href="/about/officers">Officers</a></li> -->
              </ul>
            </div>
          </div>
@@ -103,7 +103,7 @@
            <div class="footer-pad">
              <ul class="location list-unstyled">
                <h3 class="footerContact">Resources</h3>
-               <li> <a class="resourceItems" href="/about/program">Programs<a></li>
+               <li> <a class="resourceItems" href="/program">Programs<a></li>
                <li> <a class="resourceItems" href="/about/event">Events<a></li>
                <li> <a class="resourceItems" href="/about/contact">Contact Us</a></li>
              </ul>

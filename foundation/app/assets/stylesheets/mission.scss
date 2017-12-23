@@ -11,24 +11,31 @@ $midnight-blue: #036;
 @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
 
-
 html,body {
   padding: 0;
   margin: 0;
   height: 100%;
   min-height: 100%;
+  background-color: $nebula;
 }
 
 .quad {
-  width: 50%;
-  height: 100%;
+  // width: 50%;
+  // height: 100%;
   float: left;
-  background-color: $nebula;
+
+  // background-color: $nebula;
+}
+
+.col-md-6{
+  box-sizing: border-box;
+  border: black;
 }
 
 .line {
   height: 50%;
   width: 100%;
+
 }
 
 .equal, .equal > div[class*='col-'] {
@@ -82,6 +89,7 @@ html,body {
   text-align: center;
   color: black;
   font-family: 'Kameron', serif;
+  text-decoration: underline;
 }
 
 .missionIntro{

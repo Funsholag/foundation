@@ -1,0 +1,90 @@
+// Place all the styles related to the Program controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+$iron: #dadbdf;
+$pale-sky: #6b717f;
+$regent-grey: #808c99;
+$hopbush: #c69;
+$dawn-pink: #f2ece4;
+$nebula: #d2e1dd;
+$midnight-blue: #036;
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
+@import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
+
+// program page
+.program-bg {
+  padding-top: 10px;
+
+  // padding-bottom: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // margin-top: -25px;
+}
+
+.program-box {
+  width: 90%;
+  background-color: lighten($iron, 5);
+  border-radius: 20px;
+  margin: 0 auto;
+  // color: rgba($iron, .8);
+  // color: black;
+}
+
+  p {
+    letter-spacing: .5px;
+  }
+
+
+.programTitle{
+  text-align: center;
+  color: black;
+  font-family: 'Kameron', serif;
+}
+
+
+.programParagraph{
+  text-align: center;
+  color: black;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.second-bg {
+  padding-top: 10px;
+
+  // padding-bottom: 170px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  // margin-top: -25px;
+}
+
+.second-box {
+  width: 90%;
+  background-color: lighten($iron, 5);
+  border-radius: 20px;
+  margin: 0 auto;
+  // color: rgba($iron, .8);
+  // color: black;
+}
+
+  p {
+    letter-spacing: .5px;
+  }
+
+
+.programTitle1{
+  text-align: center;
+  color: black;
+  font-family: 'Kameron', serif;
+}
+
+
+.secondParagraph{
+  text-align: center;
+  color: black;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+.card{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
