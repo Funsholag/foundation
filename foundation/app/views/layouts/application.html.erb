@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="icon" href="/favicons/favicon.ico">
     <title>Math &amp; Science Foundation</title>
     <%= csrf_meta_tags %>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
     <script src="https://use.fontawesome.com/37f841e0f7.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Faustina|Kameron|Maven+Pro|Poiret+One|Yantramanav|Roboto" rel="stylesheet">
@@ -14,33 +16,28 @@
   </head>
 
   <body>
-
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-      <!-- <a class="navbar-brand" href="/"><i class="fa fa-home" aria-hidden="true"></i></a> -->
-
-      <a class="navbar-brand pull-left" href="/"><img src="/Foundation Logo.png" alt="placeholder" class="logo img-responsive"/></a>
-
-      <!-- <img class="navbar-brand logo" src="/Foundation Logo.jpg" alt="logo" style="margin-left: 0px;"> -->
+      <a class="navbar-brand pull-left" href="/"><img src="/favicons/favicon.ico" alt="placeholder" class="logo img-responsive"/></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <div class="navbar-collapse collapse justify-content-center" id="collapsibleNavbar">
         <div class="navbar-container">
-        <ul class="navbar-nav">
+          <ul class="navbar-nav center">
           <% if controller_name == "home" && action_name == "index" %>
-        <div class="dropdown show">
-          <li class="nav-item">
-            <a class="nav-link dropdown-toggle" href="/about" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-              <a class="dropdown-item" href="/about">About</a>
-              <a class="dropdown-item" href="/mission">Mission</a>
-              <a class="dropdown-item" href="/about/board">Board of Directors</a>
-              <!-- <a class="dropdown-item" href="/about/officers">Officers</a> -->
-              <a class="dropdown-item" href="/program">Programs</a>
-              <a class="dropdown-item" href="/about/event">Event</a>
-            </div>
-          </li>
-        </div>
+          <div class="dropdown show">
+            <li class="nav-item">
+              <a class="nav-link dropdown-toggle" href="/about" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About Us</a>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <a class="dropdown-item" href="/about">About</a>
+                <a class="dropdown-item" href="/mission">Mission</a>
+                <a class="dropdown-item" href="/about/board">Board of Directors</a>
+                <!-- <a class="dropdown-item" href="/about/officers">Officers</a> -->
+                <a class="dropdown-item" href="/program">Programs</a>
+                <a class="dropdown-item" href="/about/event">Event</a>
+              </div>
+            </li>
+          </div>
           <li class="nav-item">
             <a class="nav-link" href="/contact">Contact Us</a>
           </li>
@@ -75,14 +72,9 @@
         <% end %>
       </div>
     </div>
-    </nav>
-
-
-
-
+  </nav>
     <%= yield %>
   </body>
-
   <!-- <footer class="footer"> -->
   <footer class="footer absolute-bottom content">
     <div class="footerContainer">

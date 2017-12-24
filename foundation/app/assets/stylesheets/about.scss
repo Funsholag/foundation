@@ -12,12 +12,22 @@ $midnight-blue: #036;
 @import url("http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,400italic");
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
 
+// About Us Page
+.aboutGround{
+  background-color: $nebula;
+}
 
 .p-b-1{
   font-family: 'Kameron', serif;
   text-align: center;
   font-weight: 600;
   text-decoration: underline;
+}
+
+.card-header{
+  text-align: center;
+  color: black;
+  text-decoration: none;
 }
 
 .headOffice{
@@ -30,9 +40,7 @@ $midnight-blue: #036;
   // line-height: 15px;
   color: black;
 }
-.aboutGround{
-  background-color: $nebula;
-}
+
 /**Sub Navigation**/
 .subnavigation-container{
   background: #3d6277;
@@ -59,10 +67,12 @@ $midnight-blue: #036;
   color: black;
 }
 
-.card-header{
+
+
+// Board Page
+.boardTitle{
   text-align: center;
-  color: black;
-  text-decoration: none;
+  font-family: 'Kameron', serif;
 }
 
 .modal-body{
@@ -75,10 +85,6 @@ $midnight-blue: #036;
 //   padding-bottom: 20px;
 //   background-color: black;
 // }
-.boardTitle{
-  text-align: center;
-  font-family: 'Kameron', serif;
-}
 
 .btn{
   margin: 0 auto;
@@ -86,18 +92,16 @@ $midnight-blue: #036;
   margin-bottom: 5px;
 }
 
-// our partners page
 .officers-bg {
   padding-top: 10px;
-  // padding-bottom: 170px;
   background-repeat: no-repeat;
   background-size: cover;
+  // padding-bottom: 170px;
   // margin-top: -25px;
 }
 
 .officers-box {
   width: 90%;
-  // background-color: lighten($iron, 5);
   background-color: darken($iron, 15);
   border-radius: 20px;
   margin: 0 auto;
@@ -116,22 +120,28 @@ $midnight-blue: #036;
   font-family: 'Kameron', serif;
 }
 
-
 .officersParagraph{
   text-align: center;
   color: black;
   font-family: 'Yantramanav', sans-serif;
 }
+
+.card{
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 .card-title{
   color: black;
 }
+
 .card-text{
   color: black;
 }
+
 .col-sm-3{
   margin: 0 auto;
 }
-
 
 // events page
 .event-box {
@@ -141,26 +151,25 @@ $midnight-blue: #036;
 }
 
 .eventTitle{
-  // text-align: center;
-  // margin-top: 20px;
   margin-left: 20px;
   color: black;
   font-family: 'Kameron', serif;
+  // text-align: center;
+  // margin-top: 20px;
 }
-
 
 .event-list {
-list-style: none;
-font-family: 'Lato', sans-serif;
-margin: 0px;
-padding: 0px;
+  list-style: none;
+  font-family: 'Lato', sans-serif;
+  margin: 0px;
+  padding: 0px;
 }
 .event-list > li {
-background-color: rgb(255, 255, 255);
-box-shadow: 0px 0px 5px rgb(51, 51, 51);
-box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
-padding: 0px;
-margin: 0px 0px 20px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 5px rgb(51, 51, 51);
+  box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+  padding: 0px;
+  margin: 0px 0px 20px;
 }
 .event-list > li > time {
   display: inline-block;
@@ -171,18 +180,22 @@ margin: 0px 0px 20px;
   text-align: center;
   text-transform: uppercase;
 }
+
 .event-list > li:nth-child(even) > time {
   background-color: rgb(165, 82, 167);
 }
+
 .event-list > li > time > span {
   display: none;
 }
+
 .event-list > li > time > .day {
   display: block;
   font-size: 56pt;
   font-weight: 100;
   line-height: 1;
 }
+
 .event-list > li time > .month {
   display: block;
   font-size: 24pt;
@@ -190,6 +203,7 @@ margin: 0px 0px 20px;
   line-height: 1;
   // color: black;
 }
+
 .event-list > li time > .year {
   display: block;
   font-size: 24pt;
@@ -197,86 +211,102 @@ margin: 0px 0px 20px;
   line-height: 1;
   // color: black;
 }
+
 .event-list > li > img {
-width: 100%;
+  width: 100%;
 }
+
 .event-list > li > .info {
-padding-top: 5px;
-text-align: center;
+  padding-top: 5px;
+  text-align: center;
 }
+
 .event-list > li > .info > .title {
-font-size: 17pt;
-font-weight: 700;
-margin: 0px;
+  font-size: 17pt;
+  font-weight: 700;
+  margin: 0px;
 }
+
 .event-list > li > .info > .desc {
-font-size: 13pt;
-font-weight: 300;
-margin: 0px;
+  font-size: 13pt;
+  font-weight: 300;
+  margin: 0px;
 }
+
 .event-list > li > .info > ul,
 .event-list > li > .social > ul {
-display: table;
-list-style: none;
-margin: 10px 0px 0px;
-padding: 0px;
-width: 100%;
-text-align: center;
+  display: table;
+  list-style: none;
+  margin: 10px 0px 0px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
 }
+
 .event-list > li > .social > ul {
-margin: 0px;
+  margin: 0px;
 }
+
 .event-list > li > .info > ul > li,
 .event-list > li > .social > ul > li {
-display: table-cell;
-cursor: pointer;
-color: rgb(30, 30, 30);
-font-size: 11pt;
-font-weight: 300;
-    padding: 3px 0px;
+  display: table-cell;
+  cursor: pointer;
+  color: rgb(30, 30, 30);
+  font-size: 11pt;
+  font-weight: 300;
+  padding: 3px 0px;
 }
+
 .event-list > li > .info > ul > li > a {
-display: block;
-width: 100%;
-color: rgb(30, 30, 30);
-text-decoration: none;
+  display: block;
+  width: 100%;
+  color: rgb(30, 30, 30);
+  text-decoration: none;
 }
+
 .event-list > li > .social > ul > li {
-    padding: 0px;
+  padding: 0px;
 }
+
 .event-list > li > .social > ul > li > a {
-    padding: 3px 0px;
+  padding: 3px 0px;
 }
+
 .event-list > li > .info > ul > li:hover,
 .event-list > li > .social > ul > li:hover {
-color: rgb(30, 30, 30);
-background-color: rgb(200, 200, 200);
+  color: rgb(30, 30, 30);
+  background-color: rgb(200, 200, 200);
 }
 
 .facebook a,
 .twitter a,
 .google-plus a {
-display: block;
-width: 100%;
-color: rgb(75, 110, 168) !important;
+  display: block;
+  width: 100%;
+  color: rgb(75, 110, 168) !important;
 }
+
 .twitter a {
-color: rgb(79, 213, 248) !important;
+  color: rgb(79, 213, 248) !important;
 }
+
 .google-plus a {
-color: rgb(221, 75, 57) !important;
+  color: rgb(221, 75, 57) !important;
 }
+
 .facebook:hover a {
-color: rgb(255, 255, 255) !important;
-background-color: rgb(75, 110, 168) !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(75, 110, 168) !important;
 }
+
 .twitter:hover a {
-color: rgb(255, 255, 255) !important;
-background-color: rgb(79, 213, 248) !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(79, 213, 248) !important;
 }
+
 .google-plus:hover a {
-color: rgb(255, 255, 255) !important;
-background-color: rgb(221, 75, 57) !important;
+  color: rgb(255, 255, 255) !important;
+  background-color: rgb(221, 75, 57) !important;
 }
 
 @media (min-width: 768px) {
@@ -287,42 +317,49 @@ background-color: rgb(221, 75, 57) !important;
   height: 120px;
   padding: 0px;
 }
+
 .event-list > li > time,
 .event-list > li > img  {
   display: inline-block;
 }
+
 .event-list > li > time,
 .event-list > li > img {
   width: 120px;
   float: left;
 }
+
 .event-list > li > .info {
   background-color: rgb(245, 245, 245);
   overflow: hidden;
 }
+
 .event-list > li > time,
 .event-list > li > img {
   width: 180px;
   height: 120px;
-  // text-align: center;
   padding: 0px;
   margin: 0px;
 }
+
 .event-list > li > .info {
   position: relative;
   height: 120px;
   text-align: left;
   padding-right: 40px;
 }
+
 .event-list > li > .info > .title,
 .event-list > li > .info > .desc {
   padding: 0px 10px;
 }
+
 .event-list > li > .info > ul {
   position: absolute;
   left: 0px;
   bottom: 0px;
 }
+
 .event-list > li > .social {
   position: absolute;
   top: 0px;
@@ -330,13 +367,16 @@ background-color: rgb(221, 75, 57) !important;
   display: block;
   width: 40px;
 }
-    .event-list > li > .social > ul {
-        border-left: 1px solid rgb(230, 230, 230);
-    }
+
+.event-list > li > .social > ul {
+  border-left: 1px solid rgb(230, 230, 230);
+}
+
 .event-list > li > .social > ul > li {
   display: block;
-        padding: 0px;
+  padding: 0px;
 }
+
 .event-list > li > .social > ul > li > a {
   display: block;
   width: 40px;
@@ -344,12 +384,6 @@ background-color: rgb(221, 75, 57) !important;
 }
 }
 
-.card{
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-// history page
 .event-box {
   width: 100%;
   background-color: lighten($iron, 5);
@@ -359,13 +393,14 @@ background-color: rgb(221, 75, 57) !important;
 }
 
 .eventTitle{
-  // text-align: center;
-  // margin-top: 20px;
   margin-left: 20px;
   color: black;
   font-family: 'Kameron', serif;
+  // text-align: center;
+  // margin-top: 20px;
 }
 
+// History
 // .timeline {
 //   list-style: none;
 //   padding: 20px 0 20px;
