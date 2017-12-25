@@ -10,29 +10,38 @@ $nebula: #d2e1dd;
 $midnight-blue: #036;
 
 .contact-bg {
-  padding-top: 60px;
-  padding-bottom: 170px;
+  // padding-top: 40px;
+  padding-bottom: 100px;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // margin-top: -25px;
+
+  padding-top: 10px;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: -25px;
+
 }
 
 .contact-box {
-  width: 80%;
+  width: 72%;
+  // width: auto;
   background-color: darken($iron, 15);
   border-radius: 20px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0 auto;
+  // margin-left: 10%;
+  // margin-right: 10%;
   // color: rgba($iron, .8);
 }
 
 .contact-text {
-  width: 90%;
-  height: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
+  // width: auto;
+  // height: auto;
+  // width: 90%;
+  // height: 90%;
+  // margin-left: 5%;
+  // margin-right: 5%;
+  // padding-top: 2.5%;
+  // padding-bottom: 2.5%;
 
   h2 {
     font-size: 30px;
@@ -44,3 +53,35 @@ $midnight-blue: #036;
     letter-spacing: .5px;
   }
 }
+
+.call-text{
+  // width: auto;
+  // height: auto;
+  // width: 90%;
+  // height: 90%;
+  // margin-left: 5%;
+  // margin-right: 5%;
+  // padding-top: 2.5%;
+  // padding-bottom: 2.5%;
+  h2 {
+    font-size: 30px;
+    font-family: 'Eczar', serif;
+    // color: white;
+  }
+  p {
+    font-family: "Eczar", serif;
+    letter-spacing: .5px;
+  }
+
+}
+
+// .email{
+//   width: auto;
+// }
+
+// .col-4{
+//   margin: 0 auto;
+// }
+// .phone{
+//   margin-bottom: 10px;
+// }

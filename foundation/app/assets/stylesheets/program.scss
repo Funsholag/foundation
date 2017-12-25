@@ -12,22 +12,20 @@ $midnight-blue: #036;
 @import url("//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css");
 
 
-.program-bg {
-  padding-top: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  // padding-bottom: 170px;
-  // margin-top: -25px;
-}
+// .program-bg {
+//   padding-top: 10px;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }
 
-.program-box {
-  width: 90%;
-  background-color: lighten($iron, 5);
-  border-radius: 20px;
-  margin: 0 auto;
+// .program-box {
+//   width: 90%;
+//   background-color: lighten($iron, 5);
+//   border-radius: 20px;
+//   margin: 0 auto;
   // color: rgba($iron, .8);
   // color: black;
-}
+// }
 
 p {
   letter-spacing: .5px;
@@ -46,40 +44,40 @@ p {
   font-family: 'Yantramanav', sans-serif;
 }
 
-.second-bg {
-  padding-top: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
+i{
+  font: 4vw;
+}
+// .second-bg {
+//   padding-top: 10px;
+//   background-repeat: no-repeat;
+//   background-size: cover;
   // padding-bottom: 170px;
   // margin-top: -25px;
-}
+// }
 
-.second-box {
-  width: 90%;
-  background-color: lighten($iron, 5);
-  border-radius: 20px;
-  margin: 0 auto;
+// .second-box {
+//   width: 90%;
+//   background-color: lighten($iron, 5);
+//   border-radius: 20px;
+//   margin: 0 auto;
   // color: rgba($iron, .8);
   // color: black;
-}
+// }
 
-p {
-  letter-spacing: .5px;
-}
+// .programTitle1{
+//   text-align: center;
+//   color: black;
+//   font-family: 'Yantramanav', sans-serif;
+//   font: 2em;
+// }
 
-.programTitle1{
-  text-align: center;
-  color: black;
-  font-family: 'Kameron', serif;
-}
+// .secondParagraph{
+//   text-align: center;
+//   color: black;
+//   font-family: 'Yantramanav', sans-serif;
+// }
 
-.secondParagraph{
-  text-align: center;
-  color: black;
-  font-family: 'Yantramanav', sans-serif;
-}
-
-.card{
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
+// .card{
+//   margin-left: 10px;
+//   margin-bottom: 10px;
+// }

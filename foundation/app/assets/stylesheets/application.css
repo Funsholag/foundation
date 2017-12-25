@@ -96,8 +96,8 @@ footer a:hover{
 /*About Footer Column*/
 .aboutColumn{
   color: black;
-  margin-left: 15px;
-  line-height: 30px;
+  margin-left: 10px;
+  line-height: 25px;
   font-family: 'Kameron', serif;
 
 }
@@ -111,11 +111,15 @@ footer a:hover{
   color: black;
 }
 .location{
+  margin-left: 10px;
+  line-height: 25px;
   font-family: 'Kameron', serif;
 }
 
 /*Social Media*/
 .connectContact{
+  margin-left: 10px;
+  line-height: 25px;
   color: black;
   font-family: 'Kameron', serif;
 }
@@ -128,6 +132,7 @@ footer a:hover{
   width: 140px;
   /*text-align: center;*/
 }
+
 .icon {
 	position: relative;
 	text-align: center;
