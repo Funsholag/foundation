@@ -12,25 +12,16 @@ $midnight-blue: #036;
 .contact-bg {
   // padding-top: 40px;
   padding-bottom: 100px;
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  // margin-top: -25px;
-
   padding-top: 10px;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .contact-box {
   width: 72%;
-  // width: auto;
   background-color: darken($iron, 15);
   border-radius: 20px;
   margin: 0 auto;
-  // margin-left: 10%;
-  // margin-right: 10%;
-  // color: rgba($iron, .8);
 }
 
 .contact-text {
@@ -74,14 +65,3 @@ $midnight-blue: #036;
   }
 
 }
-
-// .email{
-//   width: auto;
-// }
-
-// .col-4{
-//   margin: 0 auto;
-// }
-// .phone{
-//   margin-bottom: 10px;
-// }

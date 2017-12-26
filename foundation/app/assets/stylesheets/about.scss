@@ -72,24 +72,21 @@ $midnight-blue: #036;
   color: black;
 }
 
-
-
 // Board Page
 .boardTitle{
   text-align: center;
   font-family: 'Kameron', serif;
 }
 
-.modal-body{
-  background-color: $iron;
-  // margin-bottom: 15px;
-  // color: black;
+#myModal{
+  margin: 0 auto;
+  margin-top: 10%;
 }
 
-// #myModal1{
-//   padding-bottom: 20px;
-//   background-color: black;
-// }
+#myModal1{
+  margin: 0 auto;
+  margin-top: 10%;
+}
 
 .btn{
   margin: 0 auto;

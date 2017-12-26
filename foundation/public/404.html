@@ -19,7 +19,7 @@
   }
 
   .rails-default-error-page div.dialog > div {
-    border: 1px solid #CCC;
+    /*border: 1px solid #CCC;
     border-right-color: #999;
     border-left-color: #999;
     border-bottom-color: #BBB;
@@ -28,7 +28,7 @@
     border-top-right-radius: 9px;
     background-color: white;
     padding: 7px 12% 0;
-    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+    box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);*/
   }
 
   .rails-default-error-page h1 {
@@ -37,7 +37,7 @@
     line-height: 1.5em;
   }
 
-  .rails-default-error-page div.dialog > p {
+  /*.rails-default-error-page div.dialog > p {
     margin: 0 0 1em;
     padding: 1em;
     background-color: #F7F7F7;
@@ -50,6 +50,10 @@
     border-top-color: #DADADA;
     color: #666;
     box-shadow: 0 3px 8px rgba(50, 50, 50, 0.17);
+  }*/
+
+  .question{
+    width: 55%;
   }
   </style>
 </head>
@@ -58,10 +62,14 @@
   <!-- This file lives in public/404.html -->
   <div class="dialog">
     <div>
-      <h1>The page you were looking for doesn't exist.</h1>
-      <p>You may have mistyped the address or the page may have moved.</p>
+      <h1>Page not found</h1>
+      <p>The link you are looking for may be broken, or may have been removed.</p>
+      <p><img class="question" src="/question-mark.png" alt="dogErrorPage"></p>
     </div>
-    <p>If you are the application owner check the logs for more information.</p>
+    <p>Try going back to the previous page.</p>
+    <div class="action-link-wrap">
+        <a href="/"><button>Go to Home Page</button></a>
+    </div>
   </div>
 </body>
 </html>
