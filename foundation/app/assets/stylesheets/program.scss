@@ -47,6 +47,39 @@ p {
 i{
   font: 4vw;
 }
+ol, ul {
+  list-style: none;
+  // display: block;
+  // width: 100%;
+  // margin: 0;
+  // float: left;
+}
+
+.span-1 {
+  width: 100%;
+  float: left;
+}
+
+.image-item {
+  width: 30.5%;
+  float: left;
+}
+// div {
+//   display: block;
+// }
+// .our-work-images {
+//   margin-top: 40px;
+// }
+// div {
+//   display: block;
+// }
+
+//
+// ul {
+//   display: block;
+//   margin-block-start: 1em;
+// }
+
 // .second-bg {
 //   padding-top: 10px;
 //   background-repeat: no-repeat;
