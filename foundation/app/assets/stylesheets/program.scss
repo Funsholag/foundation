@@ -47,6 +47,7 @@ p {
 i{
   font: 4vw;
 }
+
 ol, ul {
   list-style: none;
   // display: block;
@@ -64,16 +65,30 @@ ol, ul {
   width: 30.5%;
   float: left;
 }
-// div {
-//   display: block;
-// }
-// .our-work-images {
-//   margin-top: 40px;
-// }
-// div {
-//   display: block;
-// }
 
+// .body {
+//   display: block;
+//   margin-block-start: 1em;
+//   margin-block-end: 1em;
+//   margin-inline-start: 0px;
+//   margin-inline-end: 0px;
+// }
+.our-work-images .image-item figcaption {
+  // background-color: #303131;
+  padding: 10px;
+  margin-top: -5px;
+}
+
+// figcaption{
+//   vertical-align: baseline;
+// }
+div {
+  display: block;
+}
+
+.nav-item {
+  list-style: none;
+}
 //
 // ul {
 //   display: block;

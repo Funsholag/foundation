@@ -10,6 +10,6 @@ Rails.application.routes.draw do
   get '/mission' => "mission#mission"
   get '/program' => "program#index"
   get '/program/program' => "program#program"
-
+  get '/program/program1' => "program#program1"
   get '/contact' => "contact#index"
 end
