@@ -66,6 +66,17 @@ ol, ul {
   float: left;
 }
 
+.image-item figure img {
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.image-item figure:hover img {
+  -webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
 // .body {
 //   display: block;
 //   margin-block-start: 1em;
@@ -77,6 +88,7 @@ ol, ul {
   // background-color: #303131;
   padding: 10px;
   margin-top: -5px;
+
 }
 
 // figcaption{
@@ -88,6 +100,10 @@ div {
 
 .nav-item {
   list-style: none;
+}
+
+.FTSession, .BDE{
+  font-size: 14px;
 }
 //
 // ul {
