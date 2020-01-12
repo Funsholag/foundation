@@ -11,5 +11,6 @@ Rails.application.routes.draw do
   get '/program' => "program#index"
   get '/program/program' => "program#program"
   get '/program/program1' => "program#program1"
+  # get '/program/progImages' => "program#progImages"
   get '/contact' => "contact#index"
 end
